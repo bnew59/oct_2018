@@ -1,0 +1,60 @@
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+/*
+  body {
+    background-color: yellow;
+  } */
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    font-size:18px;
+  }
+
+  .hero-image {
+    background-image: url("mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height :100%;
+  }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+@media (min-width: 1281px) {
+
+  .hero-image {
+    width :100%;
+    height :100%;
+    background-image: url("desktop.png");
+    background-repeat: no-repeat;
+  }
+
+}
+
+
+
+
+
+.container {
+  display:flex;
+  flex-direction: column;
+}
+
+.menu {
+  background-color: black;
+  color: white;
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin: 10px;
+}

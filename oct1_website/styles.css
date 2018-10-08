@@ -1,0 +1,77 @@
+        .portfolio {
+        background-color: yellow;
+        border: 3px solid black;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .header {
+        border: 10px solid black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+        text-align: center;
+    }
+    
+    .motorcycles {
+        border: 10px solid black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        background-color: lightblue;
+        text-align: center;
+        /* width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center; */
+    }
+    
+    .sticker {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        position: absolute;
+    }
+    /* Posiiton fixed, like a nav bar */
+    
+    .navbar_wrapper {
+        width: 100vw;
+        /*vw is view width
+    height: 50px;
+    background-color: red;
+    position: fixed;
+}
+
+ makes an ad like box that stays on the screen when you scroll
+sticky
+width:
+height:
+background-color:
+position: sticky;
+top: 0;
+
+
+/* .motorcycles div {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    background-color: grey;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+} */
+        .photos {
+            width: 500px;
+            height: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }

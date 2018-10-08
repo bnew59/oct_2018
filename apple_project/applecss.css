@@ -1,0 +1,91 @@
+@media (max-width: 480px) {
+    /*
+  body {
+    background-color: yellow;
+  } */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+    /* .menu {
+        flex-direction: column;
+        align-items: center;
+        font-size:18px;
+      } */
+    .mobile_image {
+        background-image: url("apple_mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
+    }
+    /* .hero-image {
+        background-image: url("mobile.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height :100%; */
+}
+
+
+/* @media (min-width: 481px) and (max-width: 1280px) {
+    .mobile_image {
+        background-image: url("apple_desktop.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+    } */
+
+@media (min-width: 481px) and (max-width: 1281px) {
+    .mobile_image {
+        background-image: url("apple_desktop.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 100%;
+        width: 100%;
+    }
+    /* @media (min-width: 1281px) {
+
+    .hero-image {
+        width :100%;
+        height :100%;
+        background-image: url("desktop.png");
+        background-repeat: no-repeat;
+    } */
+}
+
+.container {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* .container {
+    display:flex;
+    flex-direction: column;
+} */
+
+.menu {
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+/* .menu {
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+  } */
+
+.menu li {
+    margin: 10px;
+}
+
+.image li {
+    margin: 10px;
+}
