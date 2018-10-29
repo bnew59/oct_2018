@@ -1,0 +1,45 @@
+<html>
+<body>
+
+<h3>Register User</h3>
+<input type="email" id="emailTextBox" />
+<input type="password" id="passwordTextBox" />
+<button id="btnRegister">Register</button>
+
+<h3>Login User</h3>
+<input type="email" id="loginEmailTextBox" />
+<input type="password" id="loginPasswordTextBox" />
+<button id="btnLogin">Register</button>
+
+<h4>Groceries</h4>
+<button id="btnAddGrocery">Add Grocery</button>
+
+
+</body>
+
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-functions.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD8nBdKSqHghuKHext63xs5OTHvIunChVw",
+    authDomain: "mytodolist-e0b97.firebaseapp.com",
+    databaseURL: "https://mytodolist-e0b97.firebaseio.com",
+    projectId: "mytodolist-e0b97",
+    storageBucket: "mytodolist-e0b97.appspot.com",
+    messagingSenderId: "998750749629"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="register.js"></script>
+</html>

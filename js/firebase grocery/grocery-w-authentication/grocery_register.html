@@ -1,0 +1,78 @@
+<html>
+
+<body>
+
+    <h3>Register User</h3>
+    <input type="email" id="emailTextBox" />
+    <input type="password" id="passwordTextBox" />
+    <button id="btnRegister">Register</button>
+
+    <h3>Login User</h3>
+    <!-- <input value="brent@gmail.com" type="email" id="loginEmailTextBox" />
+    <input value="password" type="password" id="loginPasswordTextBox" /> -->
+    <input type="email" id="loginEmailTextBox" />
+    <input type="password" id="loginPasswordTextBox" />
+    <button id="btnLogin">Register</button>
+
+
+
+    <div id="groceryFeature">
+
+        <h4>Groceries</h4>
+        <button id="btnAddGrocery">Add Grocery</button>
+
+        <form id="listForm" onsubmit="event.preventDefault()">
+            <input name="title" type="text" placeholder="list name" />
+            <br><br>
+            <button id="btnSaveCategory">Save</button>
+        </form>
+
+        <h2>Grocery List</h2>
+
+        <form id="itemForm" onsubmit="event.preventDefault()">
+            <select id="listSelect" name="itemCategory" id="itemCategory">
+         
+      </select >
+      <input name="title" type="text" id="items" placeholder="items" />
+      <br><br>
+      <button type="submit" id="btnSend">Submit</button>
+  </form>
+
+  <h3>Items</h3>
+
+  <ul id="groceryList">
+
+  </ul>>
+
+</div>
+
+
+</body>
+
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-functions.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyD_WZDMVaNOj3P5f1iWNmZkqhhVDhHEJtI",
+        authDomain: "grocery-list-a4c5e.firebaseapp.com",
+        databaseURL: "https://grocery-list-a4c5e.firebaseio.com",
+        projectId: "grocery-list-a4c5e",
+        storageBucket: "grocery-list-a4c5e.appspot.com",
+        messagingSenderId: "1032196606189"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<script src="grocery_register.js"></script>
+
+</html>

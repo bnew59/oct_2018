@@ -1,0 +1,38 @@
+<html>
+<body>
+
+<input type="text" id="categoryNameTextBox" />
+<button id="saveCategoryButton">Save Category</button>
+
+<ul id="categoriesList">
+</ul>
+
+
+</body>
+
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.4/firebase-functions.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD8nBdKSqHghuKHext63xs5OTHvIunChVw",
+    authDomain: "mytodolist-e0b97.firebaseapp.com",
+    databaseURL: "https://mytodolist-e0b97.firebaseio.com",
+    projectId: "mytodolist-e0b97",
+    storageBucket: "mytodolist-e0b97.appspot.com",
+    messagingSenderId: "998750749629"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="app.js"></script>
+</html>
